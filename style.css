@@ -1,0 +1,107 @@
+body{
+    background: url("./img/background.png") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    color:white;
+    
+}
+.mid{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+form{
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid rgb(65,65,65);
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid white ; 
+    border-radius: 30px;
+}
+.login{
+    color: white;
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+img{
+    width:100px;
+    margin-left: 50px ;
+
+}
+
+
+.entername{
+    height: 50px;
+    
+}
+input[type = "text"], input[type = "password"]{
+    padding:10px;
+    margin-top: 5px;
+    width:90% ;
+    border: 1px solid #616161 ;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 50px;
+    display: flex;
+    justify-items: center;
+    font-family: 'Poppins';
+     
+    
+}
+button[type = "submit"] {
+    background-color: aqua;
+    border: none;
+    width: 90%;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 5px;
+
+}
+input[type = "checkbox"]{
+    margin-top: 10px;
+}
+button[type = "button"]{
+    background-color: #04AA06;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    /* width: 75%; */
+
+}
+
+
+.remember{
+    margin: 10px;
+    display: flex;
+    color: white;
+    font-family: 'Poppins';
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    overflow:auto;
+}
+.forgot{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button_login{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.last{
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
